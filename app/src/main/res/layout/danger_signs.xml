@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/LightPink"
+    android:backgroundTint="@color/LightPink"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:paddingTop="16dip"
+        android:text="Mga Mapanganib na palatandaan sa Panahon ng Pagbubuntis"
+        android:textAlignment="center"
+        android:textColor="@color/dark_grey"
+        android:textSize="24dip"
+        android:textStyle="bold" />
+
+            <!-- Danger Sign 1 -->
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_1" />
+
+            <TextView
+                android:id="@+id/sign_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="Minamanas ang paa, kamay o kaya'y ang mukha"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 1 -->
+
+            <!-- Danger Sign 2 -->
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_2" />
+
+            <TextView
+                android:id="@+id/sign_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="Labis na pananakit ng ulo, pagkahilo, panlalabo ng paningin"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 2 -->
+
+            <!-- Danger Sign 3 -->
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_3" />
+
+            <TextView
+                android:id="@+id/sign_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="Pagdurugo o may bahid ng dugo sa pwerta"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 3 -->
+
+            <!-- Danger Sign 4 -->
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_4" />
+
+            <TextView
+                android:id="@+id/sign_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="Pamumutla o Anemya"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 4 -->
+
+            <!-- Danger Sign 5 -->
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_5" />
+
+            <TextView
+                android:id="@+id/sign_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="Lagnat at Panginginig ng Katawa"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 5 -->
+
+            <!-- Danger Sign 6 -->
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_6" />
+
+            <TextView
+                android:id="@+id/sign_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="Nagsusuka"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 6 -->
+
+            <!-- Danger Sign 7 -->
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_7" />
+
+            <TextView
+                android:id="@+id/sign_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="Mabilis at hirap sa paghinga"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 7 -->
+
+            <!-- Danger Sign 8 -->
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_8" />
+
+            <TextView
+                android:id="@+id/sign_8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="Labis na pananakit ng puson o tiyan"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 8 -->
+
+            <!-- Danger Sign 9 -->
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_9" />
+
+            <TextView
+                android:id="@+id/sign_9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="May lumalabas sa pwerta o may sugat sa ari"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 9 -->
+
+            <!-- Danger Sign 10 -->
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_10" />
+
+            <TextView
+                android:id="@+id/sign_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="Nahihirapan sa pag-ihi"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 10 -->
+
+            <!-- Danger Sign 11 -->
+            <ImageView
+                android:id="@+id/imageView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                app:srcCompat="@drawable/ds_11" />
+
+            <TextView
+                android:id="@+id/sign_11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:paddingBottom="20dip"
+                android:paddingLeft="20dip"
+                android:paddingRight="20dip"
+                android:paddingStart="10dip"
+                android:paddingTop="10dip"
+                android:text="Palabas ng matubig na bagay sa pwerta"
+                android:textAlignment="center"
+                android:textColor="@color/grey"
+                android:textSize="16sp" />
+            <!-- / Danger Sign 11 -->
+
+                <!-- Danger Sign 12 -->
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@drawable/ds_12" />
+
+                <TextView
+                    android:id="@+id/sign_12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:paddingBottom="20dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:paddingStart="10dip"
+                    android:paddingTop="10dip"
+                    android:text="Paninigas o pagkawala ng malay"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+                <!-- / Danger Sign 12 -->
+
+                <!-- Danger Sign 13 -->
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    app:srcCompat="@drawable/ds_13" />
+
+                <TextView
+                    android:id="@+id/sign_13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:fontFamily="sans-serif"
+                    android:gravity="center"
+                    android:paddingBottom="20dip"
+                    android:paddingLeft="20dip"
+                    android:paddingRight="20dip"
+                    android:paddingStart="10dip"
+                    android:paddingTop="10dip"
+                    android:text="Kawalan ng/mahina ang paggalaw ng sanggol (kulang sa 10 sipa sa loob ng 12 oras sa ika - 4 o 5 buwan ng pagbubuntis)"
+                    android:textAlignment="center"
+                    android:textColor="@color/grey"
+                    android:textSize="16sp" />
+                <!-- / Danger Sign 13 -->
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

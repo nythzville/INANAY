@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.maven.inanay"
+    android:installLocation="internalOnly">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/startlogofinalcover"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/startlogofinalcover"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".StartUpScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".AlarmMe"
+            android:label="iNanay Reminders" />
+        <activity
+            android:name=".Main2Activity"
+            android:label="iNanay Week by Week" />
+        <activity
+            android:name=".EditAlarm"
+            android:label="iNanay Edit Reminder" />
+        <activity
+            android:name=".AlarmNotification"
+            android:label="iNanay Alarm Notification" />
+        <activity
+            android:name=".Preferences"
+            android:label="Preferences" />
+        <activity
+            android:name=".About"
+            android:label="iNanay About">
+        <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".Main2Activity" />
+
+        </activity>
+
+        <receiver
+            android:name=".AlarmReceiver"
+            android:process=":remote" />
+        <receiver android:name=".BootCompletedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".CaldroidSampleActivity"
+            android:label="iNanay Calendar" />
+        <activity android:name=".TabHostActivity" />
+        <activity
+            android:name=".PasswordActivity"
+            android:label="iNanay Change Password">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+        <activity
+            android:name=".CallActivity"
+            android:label="iNanay Emergency Call">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+
+        <activity android:name=".DangerSigns"
+            android:parentActivityName=".Main2Activity"
+            android:label="Danger Signs">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".Main2Activity" />
+        </activity>
+    </application>
+
+</manifest>
