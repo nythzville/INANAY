@@ -6,36 +6,29 @@ import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
-import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
-import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.RequiresApi;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
-import android.text.format.DateFormat;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.roomorama.caldroid.CaldroidFragment;
 import com.roomorama.caldroid.CaldroidListener;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.HashMap;
-import java.util.Objects;
-
-import static java.lang.Long.*;
 
 public class CaldroidSampleActivity extends AppCompatActivity {
     private boolean undo = false;
@@ -55,6 +48,10 @@ public class CaldroidSampleActivity extends AppCompatActivity {
     public String dateString[] = new String[1000];
 
     final Context context = this;
+
+    private AlarmListAdapter mAlarmListAdapter;
+    private Alarm mCurrentAlarm;
+
 
     @SuppressLint("SimpleDateFormat")
     private void setCustomResourceForDates() {
@@ -1169,6 +1166,9 @@ public class CaldroidSampleActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calendar);
 
+        // Alarm Adapter
+        mAlarmListAdapter = new AlarmListAdapter(this);
+
         final SimpleDateFormat formatter = new SimpleDateFormat("dd MMM yyyy");
 
         caldroidFragment = new CaldroidSampleCustomFragment();
@@ -1199,6 +1199,46 @@ public class CaldroidSampleActivity extends AppCompatActivity {
             @Override
             public void onSelectDate(Date date, View view) {
 
+                final Dialog dialog = new Dialog(context);
+                dialog.setContentView(R.layout.view_reminder);
+                final TextView content_view = (TextView) dialog.findViewById(R.id.content_content);
+
+                Button dialogButton2 = (Button) dialog.findViewById(R.id.dialogButtonOK);
+                dialogButton2.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        dialog.dismiss();
+                    }
+                });
+
+                // Check if reminder on date
+                int r_count = mAlarmListAdapter.getCount();
+                Date r_date;
+                String title = null;
+                for (int x_count = 0; x_count < r_count; x_count++){
+                    r_date = new Date(mAlarmListAdapter.getItem(x_count).getDate());
+                    title = mAlarmListAdapter.getItem(x_count).getTitle();
+
+                    if(r_date.getYear() == date.getYear()&& r_date.getMonth() == date.getMonth() && r_date.getDay() == date.getDay()){
+                        Log.i("Reminder Match Date", "TRUE");
+                        Log.i("Title", title);
+
+                        // Setting Dialog content
+
+                        DateFormat df = new SimpleDateFormat("MMM d yyyy 'at' h:mm a");
+                        String str_date = df.format(r_date);
+
+                        Log.i("String Date Formatted", str_date);
+                        dialog.setTitle(str_date.toString());
+                        content_view.setText(title);
+
+                        dialog.show();
+
+                    }else{
+                        Log.i("Reminder Match Date", "FALSE");
+                    }
+
+                }
             }
 
             @Override
@@ -1209,28 +1249,6 @@ public class CaldroidSampleActivity extends AppCompatActivity {
             @Override
             public void onLongClickDate(Date date, View view) {
 
-                int date_size = datespres.length;
-                for (int count  = 0; count < date_size; count++){
-                    Date remdate = (Date) datespres[count];
-
-//                    if(remdate == date){
-
-                        final Dialog dialog = new Dialog(context);
-                        dialog.setContentView(R.layout.view_reminder);
-                        dialog.setTitle(date.toString());
-
-                        Button dialogButton2 = (Button) dialog.findViewById(R.id.dialogButtonCAN);
-                        dialogButton2.setOnClickListener(new View.OnClickListener() {
-                            @Override
-                            public void onClick(View v) {
-                                dialog.dismiss();
-                            }
-                        });
-                        dialog.show();
-
-                        break;
-//                    }
-                }
 
 
             }
