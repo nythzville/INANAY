@@ -120,13 +120,13 @@ public class MainActivity extends AppCompatActivity implements
 
     public void sound1(View view){
         stopPlaying();
-        mp0 = MediaPlayer.create(this, R.raw.lask);
+        mp0 = MediaPlayer.create(this, R.raw.last_mens);
         mp0.start();
     }
 
     public void sound2(View view){
         stopPlaying();
-        mp1 = MediaPlayer.create(this, R.raw.due);
+        mp1 = MediaPlayer.create(this, R.raw.due_date);
         mp1.start();
     }
 

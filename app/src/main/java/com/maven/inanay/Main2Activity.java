@@ -441,217 +441,259 @@ public class Main2Activity extends AppCompatActivity {
             img.setImageResource(R.drawable.picture1);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 2){
             img.setImageResource(R.drawable.picture2);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 3){
             img.setImageResource(R.drawable.picture3);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 4){
             img.setImageResource(R.drawable.picture4);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 5){
             img.setImageResource(R.drawable.picture5);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 6){
             img.setImageResource(R.drawable.picture6);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 7){
             img.setImageResource(R.drawable.picture7);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 8){
             img.setImageResource(R.drawable.picture8);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 9){
             img.setImageResource(R.drawable.picture9);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 10){
             img.setImageResource(R.drawable.picture10);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 11){
             img.setImageResource(R.drawable.picture11);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 12){
             img.setImageResource(R.drawable.picture12);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 13){
             img.setImageResource(R.drawable.picture13);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 14){
             img.setImageResource(R.drawable.picture14);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 15){
             img.setImageResource(R.drawable.picture15);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 16){
             img.setImageResource(R.drawable.picture16);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 17){
             img.setImageResource(R.drawable.picture17);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 18){
             img.setImageResource(R.drawable.picture18);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 19){
             img.setImageResource(R.drawable.picture19);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 20){
             img.setImageResource(R.drawable.picture20);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 21){
             img.setImageResource(R.drawable.picture21);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 22){
             img.setImageResource(R.drawable.picture22);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 23){
             img.setImageResource(R.drawable.picture23);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 24){
             img.setImageResource(R.drawable.picture24);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 25){
             img.setImageResource(R.drawable.picture25);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 26){
             img.setImageResource(R.drawable.picture26);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 27){
             img.setImageResource(R.drawable.picture27);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 28){
             img.setImageResource(R.drawable.picture28);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 29){
             img.setImageResource(R.drawable.picture29);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 30){
             img.setImageResource(R.drawable.picture30);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 31){
             img.setImageResource(R.drawable.picture31);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 32){
             img.setImageResource(R.drawable.picture32);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 33){
             img.setImageResource(R.drawable.picture33);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 34){
             img.setImageResource(R.drawable.picture34);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
         }
         else if(wk == 35){
             img.setImageResource(R.drawable.picture35);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
         }
         else if(wk == 36){
             img.setImageResource(R.drawable.picture36);
             a = 1;
             nutritipsview.setText("Nutrition Tips");
+            nutritipsview.setBackgroundResource(R.drawable.nutrition_tips);
 
         }
         else if(wk == 37){
             img.setImageResource(R.drawable.picture37);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
 
         }
         else if(wk == 38){
             img.setImageResource(R.drawable.picture38);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
 
         }
         else if(wk == 39){
             img.setImageResource(R.drawable.picture39);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
 
         }
         else if(wk == 40){
             img.setImageResource(R.drawable.picture40);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
 
         }
         else if(wk == 41){
             img.setImageResource(R.drawable.picture41);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
 
         }
         else if(wk == 42){
             img.setImageResource(R.drawable.picture42);
             a = 1;
             nutritipsview.setText("Health Facts");
+            nutritipsview.setBackgroundResource(R.drawable.health_facts);
 
         }
 

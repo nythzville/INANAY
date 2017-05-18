@@ -103,7 +103,7 @@
                 android:layout_marginLeft="3dp"
                 android:layout_marginRight="0dp"
                 android:layout_marginStart="8dp"
-                android:layout_marginTop="2dp"
+                android:layout_marginTop="8dp"
                 android:layout_weight="0.12"
                 android:background="@drawable/inanay_center"
                 android:gravity="center"
@@ -119,6 +119,7 @@
                 app:layout_constraintTop_toBottomOf="@+id/img"
                 app:layout_constraintVertical_bias="0.0" />
         </LinearLayout>
+
             <TextView
                 android:id="@+id/bbsize"
                 android:layout_width="match_parent"
@@ -132,8 +133,8 @@
                 android:gravity="center"
                 android:padding="1dp"
                 android:text="Baby size is XXXXXXXXXXXXXX"
-                android:textColor="@color/grey"
-                android:textSize="20sp"
+                android:textColor="@color/dark_grey"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintLeft_toLeftOf="parent"
@@ -147,20 +148,23 @@
                 android:layout_gravity="center"
                 android:foregroundGravity="center_vertical"
                 android:gravity="center"
-                android:orientation="horizontal">
+                android:orientation="horizontal"
+                android:weightSum="1">
 
                 <TextView
                     android:id="@+id/textView13"
-                    android:layout_width="180dp"
-                    android:layout_height="wrap_content"
+                    android:layout_width="250dp"
+                    android:layout_height="65dp"
                     android:layout_marginBottom="0dp"
                     android:layout_marginEnd="8dp"
                     android:layout_marginLeft="8dp"
                     android:layout_marginRight="8dp"
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="0dp"
+                    android:background="@drawable/nutrition_tips"
                     android:gravity="center"
                     android:padding="3dp"
+                    android:paddingStart="50dp"
                     android:text="Nutrition Tips"
                     android:textAllCaps="true"
                     android:textColor="@color/dark_grey"
@@ -177,7 +181,8 @@
                 <Button
                     android:id="@+id/tips"
                     android:layout_width="45dp"
-                    android:layout_height="37dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="0.28"
                     android:background="@drawable/speaker"
                     android:onClick="tip" />
             </LinearLayout>
